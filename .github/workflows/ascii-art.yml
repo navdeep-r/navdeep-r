@@ -1,0 +1,42 @@
+name: Generate ASCII Profile Art
+
+on:
+  schedule:
+    # Runs every Sunday at midnight UTC
+    - cron: "0 0 * * 0"
+  workflow_dispatch: # Allow manual trigger from GitHub Actions UI
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-ascii:
+    name: Regenerate myself.png (ASCII Art)
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install pillow ascii-magic requests
+
+      - name: Generate ASCII art PNG
+        run: python scripts/generate_ascii.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add assets/myself.png
+          git diff --staged --quiet || git commit -m "chore: regenerate ASCII profile art [skip ci]"
+          git push
