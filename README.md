@@ -110,21 +110,11 @@ I'm an AI Engineer and Full-Stack Developer from Chennai, currently pursuing B.E
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=navdeep-r&theme=tokyo-night&bg_color=0d1117&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true)](https://github.com/navdeep-r)
+<img src="assets/contributions.svg" alt="GitHub Contribution Heatmap" width="100%" />
 
 </div>
 
----
 
-## 🐍 Contribution Snake
-
-<div align="center">
-
-![snake gif](https://github.com/navdeep-r/navdeep-r/blob/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
----
 
 ## 🏅 Achievements
 
@@ -188,25 +178,7 @@ I'm an AI Engineer and Full-Stack Developer from Chennai, currently pursuing B.E
 
 </details>
 
----
 
-## 🎓 Education
-
-<div align="center">
-
-| Degree | Institution | Period | Score |
-|:------:|:-----------:|:------:|:-----:|
-| B.E. Computer Science & Engineering | Chennai Institute of Technology | Sep 2024 – Present | **8.54 / 10** |
-
-</div>
-
-**Certifications:**
-
-![IBM](https://img.shields.io/badge/IBM_AI_Fundamentals-052FAD?style=flat-square&logo=ibm&logoColor=white)
-![Cisco](https://img.shields.io/badge/Intro_to_Cybersecurity-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
-![Cisco](https://img.shields.io/badge/Intro_to_Data_Science-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
-
----
 
 ## 🤝 Connect With Me
 

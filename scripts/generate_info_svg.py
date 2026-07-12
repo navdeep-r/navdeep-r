@@ -35,15 +35,13 @@ LINES = [
     [("Exp        ", COLOR_KEY), ("SDE Intern @ PICABORD Technologies", COLOR_VAL)],
     [("           ", COLOR_KEY), ("AI Engineer Intern @ Snyco", COLOR_VAL)],
     [("           ", COLOR_KEY), ("Open Source Dev @ StoryWeaver", COLOR_VAL)],
-    [("Stack      ", COLOR_KEY), ("Python, TS, React, FastAPI, LangChain", COLOR_VAL)],
-    [("           ", COLOR_KEY), ("AWS, Docker, PyTorch, Postgres", COLOR_VAL)],
     [("Awards     ", COLOR_KEY), ("ICPC 2025 Global Rank 1729", COLOR_VAL)],
     [("           ", COLOR_KEY), ("LeetCode Knight (1881)", COLOR_VAL)],
 ]
 
 # Reveal timing
-ROW_DUR = 0.15
-STAGGER = 0.15
+ROW_DUR = 0.4
+STAGGER = 0.4
 
 parts = []
 parts.append(
