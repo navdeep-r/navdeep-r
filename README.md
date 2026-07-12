@@ -30,6 +30,12 @@
 
 I'm an AI Engineer and Full-Stack Developer from Chennai, currently pursuing B.E. in Computer Science at Chennai Institute of Technology (CGPA: 8.54). I simultaneously intern as **SDE Intern at PICABORD Technologies** and **AI Engineer Intern at Snyco**, building production-grade agentic AI systems, LLM pipelines, and low-latency voice interfaces. My work lives at the intersection of **AI infrastructure**, **real-time systems**, and **developer tooling**.
 
+<div align="center">
+
+<img src="assets/contributions.svg" alt="GitHub Contribution Heatmap" width="100%" />
+
+</div>
+
 ---
 
 ## 🛠️ Tech Stack
@@ -103,17 +109,6 @@ I'm an AI Engineer and Full-Stack Developer from Chennai, currently pursuing B.E
 [![GitHub Streak](https://streak-stats.demolab.com?user=navdeep-r&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10)](https://github.com/navdeep-r)
 
 </div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-<img src="assets/contributions.svg" alt="GitHub Contribution Heatmap" width="100%" />
-
-</div>
-
 
 
 ## 🏅 Achievements
