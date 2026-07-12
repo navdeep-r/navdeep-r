@@ -84,6 +84,7 @@ navdeep-r/                         ← repo root (same as GitHub username)
 │   └── github-snake-dark.svg      ← auto-generated snake (dark)
 ├── scripts/
 │   ├── generate_ascii.py          ← ASCII art generator
+│   ├── generate_ascii_svg.py      ← ASCII SVG generator
 │   └── requirements.txt
 └── .github/
     └── workflows/
