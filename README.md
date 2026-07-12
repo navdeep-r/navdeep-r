@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=AI+Engineer+%26+Full-Stack+Developer+%F0%9F%A4%96;RAG+Pipelines+%7C+LLM+APIs+%7C+Voice+AI;LeetCode+KNIGHT+%E2%9A%94%EF%B8%8F+Rating+1881;ICPC+2025+%E2%80%94+Global+Rank+1729+%7C+Regional+Rank+17&v=2)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=AI+Engineer+%26+Full-Stack+Developer+%F0%9F%A4%96;RAG+Pipelines+%7C+LLM+APIs+%7C+Voice+AI;LeetCode+KNIGHT+%E2%9A%94%EF%B8%8F+Rating+1939;ICPC+2025+%E2%80%94+Global+Rank+1729+%7C+Regional+Rank+17&v=2)](https://git.io/typing-svg)
 
 </div>
 
@@ -123,7 +123,7 @@ I'm an AI Engineer and Full-Stack Developer from Chennai, currently pursuing B.E
 | 🏆 | Achievement | Details |
 |:--:|:-----------:|:-------:|
 | 🌍 | **ICPC 2025** | Global Rank **1729 / 3000** · Regional Rank **17 / 150+** (Sri Lanka Regionals) |
-| ⚔️ | **LeetCode KNIGHT Badge** | Rating **1881** · [navdeep90](https://leetcode.com/navdeep90) |
+| ⚔️ | **LeetCode KNIGHT Badge** | Rating **1939** · [navdeep90](https://leetcode.com/navdeep90) |
 | 💻 | **Codeforces Rated** | Rating **1049** · [NAVDEEP009](https://codeforces.com/profile/NAVDEEP009) |
 | 🥇 | **Best Backend Functionality** | Gen AI Dev Hackathon — 2026 |
 | 🏗️ | **Best Solution Architecture** | HackFinity SIMATS Hackathon — 2025 |

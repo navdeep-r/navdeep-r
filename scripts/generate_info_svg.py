@@ -36,7 +36,7 @@ LINES = [
     [("           ", COLOR_KEY), ("AI Engineer Intern @ Snyco", COLOR_VAL)],
     [("           ", COLOR_KEY), ("Open Source Dev @ StoryWeaver", COLOR_VAL)],
     [("Awards     ", COLOR_KEY), ("ICPC 2025 Global Rank 1729", COLOR_VAL)],
-    [("           ", COLOR_KEY), ("LeetCode Knight (1881)", COLOR_VAL)],
+    [("           ", COLOR_KEY), ("LeetCode Knight (1939)", COLOR_VAL)],
 ]
 
 # Reveal timing
