@@ -10,7 +10,7 @@
 
 
 <div align="center">
-  <img src="assets/ascii.svg" alt="Navdeep R ASCII portrait" width="100%" />
+  <img src="assets/portrait.svg" alt="Navdeep R ASCII portrait" width="100%" />
 </div>
 
 
