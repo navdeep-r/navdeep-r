@@ -21,14 +21,17 @@ OUT_FILE = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "asset
 BG        = "#0d1117"
 BG2       = "#111722"
 FRAME     = "#30363d"
-TEXT_DIM  = "#7d8590"
+TEXT_DIM  = "#8b949e"
 TEXT_MAIN = "#c9d1d9"
 GREEN_0   = "#161b22"   # no contributions (empty box, still visible)
 GREEN_1   = "#0e4429"
 GREEN_2   = "#006d32"
 GREEN_3   = "#26a641"
 GREEN_4   = "#39d353"
-ACCENT    = "#3fb950"   # green accent for numbers in footer
+COLOR_GREEN  = "#3fb950"   # total contributions
+COLOR_YELLOW = "#e3b341"   # streak numbers
+COLOR_RED    = "#f97583"   # best day count
+COLOR_CYAN   = "#79c0ff"   # date range
 
 # ── Layout constants ───────────────────────────────────────────────
 BOX       = 11
@@ -126,7 +129,7 @@ def main():
 
     num_weeks = len(weeks)
     canvas_w  = GRID_X + num_weeks * CELL + 20
-    canvas_h  = GRID_Y + 7 * CELL + 75       # extra room for legend + footer
+    canvas_h  = GRID_Y + 7 * CELL + 90       # extra room for legend + separator + footer
 
     svg = []
     svg.append(
@@ -210,29 +213,38 @@ def main():
                f'fill="{TEXT_DIM}" font-size="11">More</text>')
     svg.append('</g>')
 
+    # ── Separator line ──────────────────────────────────────────────
+    sep_y = legend_y + 22
+    svg.append(f'<line x1="{GRID_X}" y1="{sep_y}" x2="{GRID_X + num_weeks * CELL}" '
+               f'y2="{sep_y}" stroke="{FRAME}" class="fade" '
+               f'style="animation-delay:{total_anim_time + 0.2:.1f}s"/>')
+
     # ── Stats footer ────────────────────────────────────────────────
-    footer_y1 = legend_y + 28
-    footer_y2 = footer_y1 + 18
+    footer_y1 = sep_y + 20
+    footer_y2 = footer_y1 + 20
+    right_x   = GRID_X + num_weeks * CELL
 
     svg.append(f'<g class="fade" style="animation-delay:{total_anim_time + 0.3:.1f}s">')
 
-    # Row 1: total contributions + date range
-    svg.append(f'<text x="{GRID_X}" y="{footer_y1}" fill="{TEXT_DIM}" font-size="12">'
-               f'<tspan fill="{ACCENT}" font-weight="bold">{stats["total"]:,}</tspan>'
+    # Row 1: total contributions (green) + date range (cyan)
+    svg.append(f'<text x="{GRID_X}" y="{footer_y1}" fill="{TEXT_DIM}" font-size="13">'
+               f'<tspan fill="{COLOR_GREEN}" font-weight="bold">{stats["total"]:,}</tspan>'
                f' contributions in the last year</text>')
-    svg.append(f'<text x="{GRID_X + num_weeks * CELL}" y="{footer_y1}" fill="{TEXT_DIM}" '
-               f'font-size="12" text-anchor="end">'
-               f'{stats["date_start"]} → {stats["date_end"]}</text>')
+    svg.append(f'<text x="{right_x}" y="{footer_y1}" fill="{TEXT_DIM}" '
+               f'font-size="13" text-anchor="end">'
+               f'<tspan fill="{COLOR_CYAN}">{stats["date_start"]}</tspan>'
+               f' \u2192 '
+               f'<tspan fill="{COLOR_CYAN}">{stats["date_end"]}</tspan></text>')
 
-    # Row 2: streaks + best day
-    svg.append(f'<text x="{GRID_X}" y="{footer_y2}" fill="{TEXT_DIM}" font-size="12">'
-               f'current streak <tspan fill="{ACCENT}" font-weight="bold">'
-               f'{stats["current_streak"]}</tspan> days · longest '
-               f'<tspan fill="{ACCENT}" font-weight="bold">'
+    # Row 2: streaks (yellow) + best day (red)
+    svg.append(f'<text x="{GRID_X}" y="{footer_y2}" fill="{TEXT_DIM}" font-size="13">'
+               f'current streak <tspan fill="{COLOR_YELLOW}" font-weight="bold">'
+               f'{stats["current_streak"]}</tspan> days \u00b7 longest '
+               f'<tspan fill="{COLOR_YELLOW}" font-weight="bold">'
                f'{stats["longest_streak"]}</tspan> days</text>')
-    svg.append(f'<text x="{GRID_X + num_weeks * CELL}" y="{footer_y2}" fill="{TEXT_DIM}" '
-               f'font-size="12" text-anchor="end">'
-               f'best day <tspan fill="{ACCENT}" font-weight="bold">'
+    svg.append(f'<text x="{right_x}" y="{footer_y2}" fill="{TEXT_DIM}" '
+               f'font-size="13" text-anchor="end">'
+               f'best day <tspan fill="{COLOR_RED}" font-weight="bold">'
                f'{stats["best_count"]}</tspan> on {stats["best_date"]}</text>')
 
     svg.append('</g>')
