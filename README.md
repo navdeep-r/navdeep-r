@@ -10,7 +10,16 @@
 
 
 <div align="center">
-  <img src="assets/portrait.svg" alt="Navdeep R ASCII portrait" width="100%" />
+  <table>
+    <tr>
+      <td align="center" width="45%">
+        <img src="assets/portrait.svg" alt="Navdeep R ASCII portrait" width="100%" />
+      </td>
+      <td align="center" width="55%">
+        <img src="assets/info.svg" alt="Navdeep R Info" width="100%" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 
