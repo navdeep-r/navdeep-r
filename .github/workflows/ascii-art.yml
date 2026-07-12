@@ -33,10 +33,13 @@ jobs:
       - name: Generate ASCII art PNG
         run: python scripts/generate_ascii.py
 
+      - name: Generate ASCII art SVG
+        run: python scripts/generate_ascii_svg.py assets/source.png assets/portrait.svg
+
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Actions Bot"
-          git add assets/myself.png
+          git add assets/myself.png assets/portrait.svg
           git diff --staged --quiet || git commit -m "chore: regenerate ASCII profile art [skip ci]"
           git push
