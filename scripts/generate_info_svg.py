@@ -30,13 +30,13 @@ FONT_SIZE = 14
 LINES = [
     [("navdeep-r", COLOR_USER), ("@", TEXT_MAIN), ("github", COLOR_HOST)],
     [("----------------", TEXT_MAIN)],
-    [("Role       ", COLOR_KEY), ("AI Engineer & Full-Stack Developer", COLOR_VAL)],
-    [("Education  ", COLOR_KEY), ("B.E. CSE, Chennai Institute of Technology", COLOR_VAL)],
-    [("Exp        ", COLOR_KEY), ("SDE Intern @ PICABORD Technologies", COLOR_VAL)],
-    [("           ", COLOR_KEY), ("AI Engineer Intern @ Snyco", COLOR_VAL)],
-    [("           ", COLOR_KEY), ("Open Source Dev @ StoryWeaver", COLOR_VAL)],
-    [("Awards     ", COLOR_KEY), ("ICPC 2025 Global Rank 1729", COLOR_VAL)],
-    [("           ", COLOR_KEY), ("LeetCode Knight (1939)", COLOR_VAL)],
+    [("Role       ", COLOR_KEY), ("*AI Engineer & Full-Stack Developer", COLOR_VAL)],
+    [("Education  ", COLOR_KEY), ("*B.E. CSE, Chennai Institute of Technology", COLOR_VAL)],
+    [("Exp        ", COLOR_KEY), ("*SDE Intern @ PICABORD Technologies", COLOR_VAL)],
+    [("           ", COLOR_KEY), ("*AI Engineer Intern @ Snyco", COLOR_VAL)],
+    [("           ", COLOR_KEY), ("*Open Source Dev @ StoryWeaver", COLOR_VAL)],
+    [("Awards     ", COLOR_KEY), ("*ICPC 2025 Global Rank 1729", COLOR_VAL)],
+    [("           ", COLOR_KEY), ("*LeetCode Knight (1939)", COLOR_VAL)],
 ]
 
 # Reveal timing
