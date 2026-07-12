@@ -87,90 +87,18 @@ I'm an AI Engineer and Full-Stack Developer from Chennai, currently pursuing B.E
 ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
----
-
-## 📊 GitHub Statistics
-
 <div align="center">
-
-<a href="https://github.com/navdeep-r">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=navdeep-r&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10"/>
-</a>
-<a href="https://github.com/navdeep-r">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=navdeep-r&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10"/>
-</a>
-
+  <table>
+    <tr>
+      <td align="center" width="50%" valign="top">
+        <img src="assets/achievements.svg" alt="Achievements" width="100%" />
+      </td>
+      <td align="center" width="50%" valign="top">
+        <img src="assets/experience.svg" alt="Professional Experience" width="100%" />
+      </td>
+    </tr>
+  </table>
 </div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=navdeep-r&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10)](https://github.com/navdeep-r)
-
-</div>
-
-
-## 🏅 Achievements
-
-<div align="center">
-
-| 🏆 | Achievement | Details |
-|:--:|:-----------:|:-------:|
-| 🌍 | **ICPC 2025** | Global Rank **1729 / 3000** · Regional Rank **17 / 150+** (Sri Lanka Regionals) |
-| ⚔️ | **LeetCode KNIGHT Badge** | Rating **1939** · [navdeep90](https://leetcode.com/navdeep90) |
-| 💻 | **Codeforces Rated** | Rating **1049** · [NAVDEEP009](https://codeforces.com/profile/NAVDEEP009) |
-| 🥇 | **Best Backend Functionality** | Gen AI Dev Hackathon — 2026 |
-| 🏗️ | **Best Solution Architecture** | HackFinity SIMATS Hackathon — 2025 |
-
-</div>
-
----
-
-## 💼 Professional Experience
-
-<details open>
-<summary><b>🏢 PICABORD Technologies Pvt. Ltd. — SDE Intern</b> &nbsp;|&nbsp; May 2026 – Present &nbsp;|&nbsp; Remote</summary>
-
-<br/>
-
-> ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-> ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-> ![FAISS](https://img.shields.io/badge/FAISS-bf91f3?style=flat-square&logo=meta&logoColor=white)
-> ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-- 🧠 Engineered **NeuroNotes** — cognitive AI meeting layer generating live minutes, extracting action items, and enabling real-time semantic querying via LLM-powered RAG pipeline.
-- 🤖 Automated post-meeting workflows via API integrations for AI-summarized email dispatch and Google Calendar scheduling, **eliminating manual follow-up overhead entirely**.
-- 🗣️ Built a **multimodal live query interface** for natural language interrogation of meeting history, backed by FAISS vector search with dynamic visual response generation.
-
-</details>
-
-<details>
-<summary><b>🏢 Snyco — AI Engineer Intern</b> &nbsp;|&nbsp; June 2026 – Present &nbsp;|&nbsp; Remote</summary>
-
-<br/>
-
-> ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-> ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-> ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white)
-
-- 🖥️ Architected backend for an **agentic AI desktop assistant**, streamlining complex terminal workflows through advanced natural language intent parsing.
-- ✈️ Led **flight ticket booking team** — designed automated flight operations module with event-driven triggers for high-throughput real-time command execution pipelines.
-
-</details>
-
-<details>
-<summary><b>🏢 StoryWeaver (Pratham Books) — Open Source Developer</b> &nbsp;|&nbsp; Sep 2025 – Oct 2025 &nbsp;|&nbsp; Remote</summary>
-
-<br/>
-
-> ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-> ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-> ![React](https://img.shields.io/badge/React.js-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-
-- ⚡ Built secure **OPDS XML-to-JSON parsing engine** with SSRF protection; boosted **API response speed by 40%** via multi-layer Redis + in-memory caching.
-- 🛡️ Hardened API security with Helmet.js and Redis rate limiting; managed multilingual catalog state with React `useReducer` for persistent non-blocking UI.
-
-</details>
-
 
 
 ## 🤝 Connect With Me
@@ -184,13 +112,3 @@ I'm an AI Engineer and Full-Stack Developer from Chennai, currently pursuing B.E
 [![Codeforces](https://img.shields.io/badge/Codeforces-NAVDEEP009-1F8ACB?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/NAVDEEP009)
 
 </div>
-
----
-
-<div align="center">
-
-*"Build systems that think. Ship code that scales."*
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling&v=2" width="100%"/>
