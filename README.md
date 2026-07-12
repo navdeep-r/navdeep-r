@@ -22,19 +22,17 @@
   </table>
 </div>
 
+<div align="center">
 
+<img src="assets/contributions.svg" alt="GitHub Contribution Heatmap" width="100%" />
+
+</div>
 
 ---
 
 ## 👨‍💻 About Me
 
 I'm an AI Engineer and Full-Stack Developer from Chennai, currently pursuing B.E. in Computer Science at Chennai Institute of Technology (CGPA: 8.54). I simultaneously intern as **SDE Intern at PICABORD Technologies** and **AI Engineer Intern at Snyco**, building production-grade agentic AI systems, LLM pipelines, and low-latency voice interfaces. My work lives at the intersection of **AI infrastructure**, **real-time systems**, and **developer tooling**.
-
-<div align="center">
-
-<img src="assets/contributions.svg" alt="GitHub Contribution Heatmap" width="100%" />
-
-</div>
 
 ---
 
