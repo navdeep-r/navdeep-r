@@ -1,8 +1,8 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Navdeep%20R&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Engineer%20%26%20Full-Stack%20Developer&descAlignY=62&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Navdeep%20R&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Engineer%20%26%20Full-Stack%20Developer&descAlignY=62&descSize=16&v=2" width="100%"/>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=AI+Engineer+%26+Full-Stack+Developer+%F0%9F%A4%96;RAG+Pipelines+%7C+LLM+APIs+%7C+Voice+AI;LeetCode+KNIGHT+%E2%9A%94%EF%B8%8F+Rating+1881;ICPC+2025+%E2%80%94+Global+Rank+1729+%7C+Regional+Rank+17)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=AI+Engineer+%26+Full-Stack+Developer+%F0%9F%A4%96;RAG+Pipelines+%7C+LLM+APIs+%7C+Voice+AI;LeetCode+KNIGHT+%E2%9A%94%EF%B8%8F+Rating+1881;ICPC+2025+%E2%80%94+Global+Rank+1729+%7C+Regional+Rank+17&v=2)](https://git.io/typing-svg)
 
 </div>
 
@@ -10,7 +10,7 @@
 
 
 <div align="center">
-  <img src="ascii.svg" alt="Navdeep R ASCII portrait" width="100%" />
+  <img src="assets/ascii.svg" alt="Navdeep R ASCII portrait" width="100%" />
 </div>
 
 
@@ -219,4 +219,4 @@ I'm an AI Engineer and Full-Stack Developer from Chennai, currently pursuing B.E
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling&v=2" width="100%"/>
