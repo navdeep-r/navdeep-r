@@ -3,47 +3,8 @@
     "user": {
       "contributionsCollection": {
         "contributionCalendar": {
-          "totalContributions": 574,
+          "totalContributions": 572,
           "weeks": [
-            {
-              "contributionDays": [
-                {
-                  "contributionCount": 0,
-                  "date": "2025-07-27",
-                  "color": "#ebedf0"
-                },
-                {
-                  "contributionCount": 0,
-                  "date": "2025-07-28",
-                  "color": "#ebedf0"
-                },
-                {
-                  "contributionCount": 0,
-                  "date": "2025-07-29",
-                  "color": "#ebedf0"
-                },
-                {
-                  "contributionCount": 0,
-                  "date": "2025-07-30",
-                  "color": "#ebedf0"
-                },
-                {
-                  "contributionCount": 2,
-                  "date": "2025-07-31",
-                  "color": "#9be9a8"
-                },
-                {
-                  "contributionCount": 0,
-                  "date": "2025-08-01",
-                  "color": "#ebedf0"
-                },
-                {
-                  "contributionCount": 1,
-                  "date": "2025-08-02",
-                  "color": "#9be9a8"
-                }
-              ]
-            },
             {
               "contributionDays": [
                 {
@@ -2039,6 +2000,45 @@
                   "contributionCount": 7,
                   "date": "2026-07-26",
                   "color": "#9be9a8"
+                },
+                {
+                  "contributionCount": 1,
+                  "date": "2026-07-27",
+                  "color": "#9be9a8"
+                },
+                {
+                  "contributionCount": 0,
+                  "date": "2026-07-28",
+                  "color": "#ebedf0"
+                },
+                {
+                  "contributionCount": 1,
+                  "date": "2026-07-29",
+                  "color": "#9be9a8"
+                },
+                {
+                  "contributionCount": 0,
+                  "date": "2026-07-30",
+                  "color": "#ebedf0"
+                },
+                {
+                  "contributionCount": 3,
+                  "date": "2026-07-31",
+                  "color": "#9be9a8"
+                },
+                {
+                  "contributionCount": 0,
+                  "date": "2026-08-01",
+                  "color": "#ebedf0"
+                }
+              ]
+            },
+            {
+              "contributionDays": [
+                {
+                  "contributionCount": 0,
+                  "date": "2026-08-02",
+                  "color": "#ebedf0"
                 }
               ]
             }
