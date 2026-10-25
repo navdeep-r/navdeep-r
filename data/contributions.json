@@ -9,45 +9,6 @@
               "contributionDays": [
                 {
                   "contributionCount": 0,
-                  "date": "2025-10-19",
-                  "color": "#ebedf0"
-                },
-                {
-                  "contributionCount": 0,
-                  "date": "2025-10-20",
-                  "color": "#ebedf0"
-                },
-                {
-                  "contributionCount": 0,
-                  "date": "2025-10-21",
-                  "color": "#ebedf0"
-                },
-                {
-                  "contributionCount": 0,
-                  "date": "2025-10-22",
-                  "color": "#ebedf0"
-                },
-                {
-                  "contributionCount": 0,
-                  "date": "2025-10-23",
-                  "color": "#ebedf0"
-                },
-                {
-                  "contributionCount": 0,
-                  "date": "2025-10-24",
-                  "color": "#ebedf0"
-                },
-                {
-                  "contributionCount": 0,
-                  "date": "2025-10-25",
-                  "color": "#ebedf0"
-                }
-              ]
-            },
-            {
-              "contributionDays": [
-                {
-                  "contributionCount": 0,
                   "date": "2025-10-26",
                   "color": "#ebedf0"
                 },
@@ -2038,6 +1999,45 @@
                 {
                   "contributionCount": 0,
                   "date": "2026-10-18",
+                  "color": "#ebedf0"
+                },
+                {
+                  "contributionCount": 0,
+                  "date": "2026-10-19",
+                  "color": "#ebedf0"
+                },
+                {
+                  "contributionCount": 0,
+                  "date": "2026-10-20",
+                  "color": "#ebedf0"
+                },
+                {
+                  "contributionCount": 0,
+                  "date": "2026-10-21",
+                  "color": "#ebedf0"
+                },
+                {
+                  "contributionCount": 0,
+                  "date": "2026-10-22",
+                  "color": "#ebedf0"
+                },
+                {
+                  "contributionCount": 0,
+                  "date": "2026-10-23",
+                  "color": "#ebedf0"
+                },
+                {
+                  "contributionCount": 0,
+                  "date": "2026-10-24",
+                  "color": "#ebedf0"
+                }
+              ]
+            },
+            {
+              "contributionDays": [
+                {
+                  "contributionCount": 0,
+                  "date": "2026-10-25",
                   "color": "#ebedf0"
                 }
               ]
